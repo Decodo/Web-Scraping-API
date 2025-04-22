@@ -1,10 +1,11 @@
 # Web Scraping API
 
 <p align="center">
-    <a href="https://dashboard.smartproxy.com/register?page=web-scraping-api%2Fpricing&utm_source=socialorganic&utm_medium=social&utm_campaign=github_website_scraper" ><img src="https://i.imgur.com/v4Z5CXu.png"></a>
-</p> 
+<a href="https://dashboard.decodo.com/?page=residential-proxies&utm_source=socialorganic&utm_medium=social&utm_campaign=resi_trial_GITHUB"><img src="https://github.com/user-attachments/assets/60bb48bd-8dcc-48b2-82c9-a218e1e4449c"></a>
+</p>
 
-[![](https://dcbadge.vercel.app/api/server/gvJhWJPaB4)](https://discord.gg/sCr34yVDVB)
+
+[![](https://dcbadge.vercel.app/api/server/Ja8dqKgvbZ)](https://discord.gg/Ja8dqKgvbZ)
 
 ## List of contents
 - [Introduction](#introduction)
@@ -18,7 +19,7 @@
 
 ## Introduction
 
-With [our Web Scraping API](https://smartproxy.com/scraping/web), you can scrape various websites en masse.
+With [our Web Scraping API](https://decodo.com/scraping/web), you can scrape various websites en masse.
 
 ## Authentication
 
@@ -31,14 +32,14 @@ Note that this is only an example with preset values to get you on the right tra
 
 ### You can use universal parameter as your target and supply any URL you want, which will return the HTML of the targeted URL.
 
-API Link: https://scraper-api.smartproxy.com/v2/scrape
+API Link: https://scraper-api.decodo.com/v2/scrape
 
 ```http
   POST /scrape
 ```
 
 ### Target: ```universal``` (not parseable)
-Required parameters: ```url``` (ip.smartproxy.com in this example)
+Required parameters: ```url``` (ip.decodo.com in this example)
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
@@ -49,9 +50,9 @@ Required parameters: ```url``` (ip.smartproxy.com in this example)
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/ipsmartproxy.py](https://github.com/Smartproxy/Web-Scraping-API/blob/main/python/ipsmartproxy.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Web-Scraping-API/main/python/ipsmartproxy.py > ipsmartproxy.py ``` |
-| PHP                 | [php/ipsmartproxy.php](https://github.com/Smartproxy/Web-Scraping-API/blob/main/php/ipsmartproxy.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Web-Scraping-API/main/php/ipsmartproxy.php > ipsmartproxy.php ``` |
-| Node.js                 | [nodejs/ipsmartproxy.js](https://github.com/Smartproxy/Web-Scraping-API/blob/main/nodejs/ipsmartproxy.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Web-Scraping-API/main/nodejs/ipsmartproxy.js > ipsmartproxy.js ``` |
+| Python                  | [python/ipdecodo.py](https://github.com/Decodo/Web-Scraping-API/blob/main/python/ipDecodo.py) |``` curl https://raw.githubusercontent.com/Decodo/Web-Scraping-API/main/python/ipdecodo.py > ipdecodo.py ``` |
+| PHP                 | [php/ipdecodo.php](https://github.com/Decodo/Web-Scraping-API/blob/main/php/ipDecodo.php)   | ``` curl https://raw.githubusercontent.com/Decodo/Web-Scraping-API/main/php/ipdecodo.php > ipdecodo.php ``` |
+| Node.js                 | [nodejs/ipdecodo.js](https://github.com/Decodo/Web-Scraping-API/blob/main/nodejs/ipDecodo.js)   | ``` curl https://raw.githubusercontent.com/Decodo/Web-Scraping-API/main/nodejs/ipdecodo.js > ipdecodo.js ``` |
 
 
 ### Response
@@ -62,7 +63,7 @@ Required parameters: ```url``` (ip.smartproxy.com in this example)
     {
       "content": "Your Ip is: 213.87.163.6",
       "status_code": 200,
-      "url": "https://ip.smartproxy.com/",
+      "url": "https://ip.decodo.com/",
       "task_id": "6971034977135771649",
       "created_at": "2022-09-01 09:24:14",
       "updated_at": "2022-09-01 09:24:17"
@@ -113,9 +114,9 @@ Required parameters: ```url```
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/facebookpage.py](https://github.com/Smartproxy/Web-Scraping-API/blob/main/python/facebookpage.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Web-Scraping-API/main/python/facebookpage.py > facebookpage.py ``` |
-| PHP                 | [php/facebookpage.php](https://github.com/Smartproxy/Web-Scraping-API/blob/main/php/facebookpage.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Web-Scraping-API/main/php/facebookpage.php > facebookpage.php ``` |
-| Node.js                 | [nodejs/facebookpage.js](https://github.com/Smartproxy/Web-Scraping-API/blob/main/nodejs/facebookpage.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Web-Scraping-API/main/nodejs/facebookpage.js > facebookpage.js ``` |
+| Python                  | [python/facebookpage.py](https://github.com/Decodo/Web-Scraping-API/blob/main/python/facebookpage.py) |``` curl https://raw.githubusercontent.com/Decodo/Web-Scraping-API/main/python/facebookpage.py > facebookpage.py ``` |
+| PHP                 | [php/facebookpage.php](https://github.com/Decodo/Web-Scraping-API/blob/main/php/facebookpage.php)   | ``` curl https://raw.githubusercontent.com/Decodo/Web-Scraping-API/main/php/facebookpage.php > facebookpage.php ``` |
+| Node.js                 | [nodejs/facebookpage.js](https://github.com/Decodo/Web-Scraping-API/blob/main/nodejs/facebookpage.js)   | ``` curl https://raw.githubusercontent.com/Decodo/Web-Scraping-API/main/nodejs/facebookpage.js > facebookpage.js ``` |
 
 
 ### Facebook Post
@@ -151,9 +152,9 @@ Required parameters: ```url```
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/facebookpost.py](https://github.com/Smartproxy/Web-Scraping-API/blob/main/python/facebookpost.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Web-Scraping-API/main/python/facebookpost.py > facebookpost.py ``` |
-| PHP                 | [php/facebookpost.php](https://github.com/Smartproxy/Web-Scraping-API/blob/main/php/facebookpost.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Web-Scraping-API/main/php/facebookpost.php > facebookpost.php ``` |
-| Node.js                 | [nodejs/facebookpost.js](https://github.com/Smartproxy/Web-Scraping-API/blob/main/nodejs/facebookpost.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Web-Scraping-API/main/nodejs/facebookpost.js > facebookpost.js ``` |
+| Python                  | [python/facebookpost.py](https://github.com/Decodo/Web-Scraping-API/blob/main/python/facebookpost.py) |``` curl https://raw.githubusercontent.com/Decodo/Web-Scraping-API/main/python/facebookpost.py > facebookpost.py ``` |
+| PHP                 | [php/facebookpost.php](https://github.com/Decodo/Web-Scraping-API/blob/main/php/facebookpost.php)   | ``` curl https://raw.githubusercontent.com/Decodo/Web-Scraping-API/main/php/facebookpost.php > facebookpost.php ``` |
+| Node.js                 | [nodejs/facebookpost.js](https://github.com/Decodo/Web-Scraping-API/blob/main/nodejs/facebookpost.js)   | ``` curl https://raw.githubusercontent.com/Decodo/Web-Scraping-API/main/nodejs/facebookpost.js > facebookpost.js ``` |
 
 
 ### Facebook Group
@@ -186,9 +187,9 @@ Required parameters: ```url```
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/facebookgroup.py](https://github.com/Smartproxy/Web-Scraping-API/blob/main/python/facebookgroup.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Web-Scraping-API/main/python/facebookgroup.py > facebookgroup.py ``` |
-| PHP                 | [php/facebookgroup.php](https://github.com/Smartproxy/Web-Scraping-API/blob/main/php/facebookgroup.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Web-Scraping-API/main/php/facebookgroup.php > facebookgroup.php ``` |
-| Node.js                 | [nodejs/facebookgroup.js](https://github.com/Smartproxy/Web-Scraping-API/blob/main/nodejs/facebookgroup.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Web-Scraping-API/main/nodejs/facebookgroup.js > facebookgroup.js ``` |
+| Python                  | [python/facebookgroup.py](https://github.com/Decodo/Web-Scraping-API/blob/main/python/facebookgroup.py) |``` curl https://raw.githubusercontent.com/Decodo/Web-Scraping-API/main/python/facebookgroup.py > facebookgroup.py ``` |
+| PHP                 | [php/facebookgroup.php](https://github.com/Decodo/Web-Scraping-API/blob/main/php/facebookgroup.php)   | ``` curl https://raw.githubusercontent.com/Decodo/Web-Scraping-API/main/php/facebookgroup.php > facebookgroup.php ``` |
+| Node.js                 | [nodejs/facebookgroup.js](https://github.com/Decodo/Web-Scraping-API/blob/main/nodejs/facebookgroup.js)   | ``` curl https://raw.githubusercontent.com/Decodo/Web-Scraping-API/main/nodejs/facebookgroup.js > facebookgroup.js ``` |
 
 ## Parameters
 
@@ -220,4 +221,4 @@ Required parameters: ```url```
 ## License
 
 
-All code is released under [MIT License](https://github.com/Smartproxy/Smartproxy/blob/master/LICENSE)
+All code is released under [MIT License](https://github.com/Decodo/Decodo/blob/master/LICENSE)
