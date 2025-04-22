@@ -5,7 +5,7 @@ const password = 'YOUR_PASSWORD';
 
 const options = {
   method: 'POST',
-  url: 'https://scraper-api.smartproxy.com/v2/scrape',
+  url: 'https://scraper-api.decodo.com/v2/scrape',
   headers: {
     'Content-Type': 'application/json',
     'Authorization': 'Basic ' + Buffer.from(username + ':' + password).toString('base64')
@@ -13,7 +13,7 @@ const options = {
   body: JSON.stringify({
     target: 'universal',
     parse: false,
-    url: 'https://ip.smartproxy.com/'
+    url: 'https://ip.decodo.com/'
   })
 };
 
